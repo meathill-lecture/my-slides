@@ -1,0 +1,26 @@
+{
+  "name": "my-slides",
+  "version": "1.0.0",
+  "description": "一些slides",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.13.3"
+  },
+  "scripts": {
+    "start": "node --es_staging js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meathill/my-slides.git"
+  },
+  "keywords": [
+    "slides"
+  ],
+  "author": "Meathill <meathill@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meathill/my-slides/issues"
+  },
+  "homepage": "https://github.com/meathill/my-slides#readme"
+}
