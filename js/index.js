@@ -6,7 +6,22 @@ Reveal.initialize({
   center: true,
 
   theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-  transition: Reveal.getQueryHash().transition || 'default' // none/fade/slide/convex/concave/zoom
+  transition: Reveal.getQueryHash().transition || 'default', // none/fade/slide/convex/concave/zoom
+  
+  dependencies: [
+    {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.5/marked.min.js',
+      condition: function () {
+        return !!document.querySelector('[data-markdown]');
+      }
+    },
+    {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/plugin/markdown/markdown.min.js',
+      condition: function () {
+        return !!document.querySelector('[data-markdown]');
+      }
+    }
+  ]
 });
 
 // GA
