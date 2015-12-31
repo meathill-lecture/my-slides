@@ -31,6 +31,8 @@ SPA前端框架，基于 Backbone + Bootstrap。自带一套实现。
 4. Nozdormu + PHP
 5. Tiger Prawn + Lemon Grass/V5
 
+[详述版](https://drive.google.com/file/d/0B3lcs6sNsDoVTnEyWF9pU08xWGM/view?usp=sharing)
+
 --------
 
 ## 新后台的设计原则
