@@ -1,3 +1,6 @@
 # repo
 node_modules
 bower_components
+
+# build
+.sass-cache
